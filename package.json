@@ -1,4 +1,7 @@
 {
+
+  "homepage": "https:// Sneha-2310.github.io/Sorting-Visualizer",
+
   "name": "sorting_visuals",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" ,
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,5 +48,8 @@
   "description": "https://algovisualizer-76b0f.web.app",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
